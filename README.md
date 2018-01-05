@@ -25,26 +25,37 @@ GoogleStaticMapsKit provides a full swift API for dealing with Google Static Map
 
 ```swift
 // Setting up the API Key (probably in AppDelegate)
-GoogleStaticMaps.setAPIKey(apiKey: "AIxxxxxxxxxx_gyyyyyyyKyyYyy")
+GoogleStaticMaps.setAPIKey(apiKey: "your_api_key")
 
-// Configure Parameters
-let point = Location(center: .geo(latitude: lat, longitude: long), zoom: .street)
-let setting = Parameters(size: CGSize(width: 200, height: 200))
-let styles = StyleImport.fromJson(path: jsonPath).styles
-let component = Feature(styles: styles)
+let locationCenter = LocationCenter.geo(latitude: 45.7772, longitude: 3.0870)
+let imageSize = ImageSize(width: 200, height: 200)
+
+let point = Location(center: locationCenter, zoom: .city)
+let setting = Parameters(size: imageSize)
 
 // Use GoogleStaticMaps Object
-let gsm = GoogleStaticMaps(point: point, setting: setting, component: component)
+let gsm = GoogleStaticMaps(point: point, setting: setting)
+let url = gsm.toURL
 
-print("Result : \(gsm.toURL)")
-self.ibMapsImageView.kf.setImage(with: gsm.toResource)
+print("Result : \(url)")
 ```
 
 ## Style
 
 GoogleStaticMapKit was designed to support JSON Style like [SnazzyMaps](https://snazzymaps.com/)
 
+```swift
+[...]
+let path = jsonFilePath
+let styles = StylesImporter.fromJson(path: path).styles
+
+let component = Feature(styles: styles)
+let gsm = GoogleStaticMaps(point: point, setting: setting, component: component)
+```
+
 For more information about Google Maps Style you can look on the official [Google Documentation](https://developers.google.com/maps/documentation/static-maps/styling)
+
+
 
 ## Support
 
@@ -76,7 +87,7 @@ it, simply add the following line to your Podfile:
 #### CocoaPods
 ```ruby
 use_frameworks!
-pod "GoogleStaticMapsKit", '~> 2.0.0'
+pod "GoogleStaticMapsKit"
 ```
 
 #### Carthage
@@ -84,6 +95,16 @@ pod "GoogleStaticMapsKit", '~> 2.0.0'
 github 'PoissonBallon/GoogleStaticMapsKit'
 ```
 
+
+#### Swift Package Manager
+```swift
+let package = Package(
+    name: "MyPackage",
+    dependencies: [
+        .Package(url: "https://github.com/PoissonBallon/GoogleStaticMapsKit", majorVersion: 1),
+    ]
+)
+```
 
 ## Author
 

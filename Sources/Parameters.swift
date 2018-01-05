@@ -26,6 +26,11 @@ import Foundation
 public struct ImageSize {
   public let width: Int
   public let height: Int
+  
+  public init(width: Int, height: Int) {
+    self.width = width
+    self.height = height
+  }
 }
 
 public enum ImageFormat: String {

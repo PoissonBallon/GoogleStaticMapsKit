@@ -24,45 +24,50 @@
 import Foundation
 
 extension GoogleStaticMaps {
-
+  
   static let urlScheme = "https"
   static let urlHost = "maps.googleapis.com"
   static let urlPath = "/maps/api/staticmap"
-
+  
   public var toURL: URL? {
-    guard let url = try? self.makeUrl() else { return nil }
-    return url
+    do {
+      let url = try self.makeUrl()
+      return url
+    } catch {
+      print("[GoogleStaticMapsKit] can't rendering url with : \(error)")
+      return nil
+    }
   }
-
+  
   internal func makeUrl() throws -> URL? {
     guard let key = intern_google_static_maps_api_key else { throw GSMError.apiKeyIsNotSet }
-
+    
     var urlComponents = URLComponents()
     urlComponents.scheme = GoogleStaticMaps.urlScheme
     urlComponents.host = GoogleStaticMaps.urlHost
     urlComponents.path = GoogleStaticMaps.urlPath
-
+    
     let keyItem = URLQueryItem(name: "key", value: key)
-
+    
     let centerItem = try self.location.asDictionary()
       .flatMap { queryComponents(fromKey: $0.key, value: $0.value) }
       .flatMap { URLQueryItem(name: $0.0, value: $0.1) }
-
+    
     let settingsItem = try self.parameters.asDictionary()
       .flatMap { queryComponents(fromKey: $0.key, value: $0.value) }
       .flatMap { URLQueryItem(name: $0.0, value: $0.1) }
-
+    
     let componentsItem = try self.feature?.asArray()
       .flatMap { $0 }
       .flatMap { queryComponents(fromKey: $0.key, value: $0.value) }
       .flatMap { URLQueryItem(name: $0.0, value: $0.1) } ?? [URLQueryItem]()
-
+    
     let items = [centerItem, settingsItem, componentsItem, [keyItem]].flatMap { $0 }
     urlComponents.queryItems = items
-
+    
     return urlComponents.url
   }
-
+  
 }
 
 internal extension Encodable {
@@ -73,7 +78,7 @@ internal extension Encodable {
     }
     return dictionary
   }
-
+  
   func asArray() throws -> [[String: Any]] {
     let data = try JSONEncoder().encode(self)
     guard let array = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [[String: Any]] else {
