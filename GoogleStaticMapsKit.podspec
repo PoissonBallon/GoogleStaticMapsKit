@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "GoogleStaticMapsKit"
   s.version      = "1.0.0"
-  s.summary      = "GoogleStaticMapsKit provide a full swift API for dealing with Google Static Maps API"
+  s.summary      = "GoogleStaticMapsKit provides a full swift API for dealing with Google Static Maps API."
   s.description  = <<-DESC
-    GoogleStaticMapsKit provide a full swift API for dealing with Google Static Maps API
+    GoogleStaticMapsKit provides a full swift API for dealing with Google Static Maps API.
   DESC
   s.homepage     = "https://github.com/PoissonBallon/GoogleStaticMapsKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
