@@ -17,11 +17,11 @@ GoogleStaticMapsKit
 [![Coverage Status](https://coveralls.io/repos/github/PoissonBallon/GoogleStaticMapsKit/badge.svg?branch=master)](https://coveralls.io/github/PoissonBallon/GoogleStaticMapsKit?branch=master)
 [![License](https://img.shields.io/cocoapods/l/GoogleStaticMapsKit.svg?style=flat)](http://cocoapods.org/pods/GoogleStaticMapsKit) -->
 
-GoogleStaticMapsKit provide a full swift API for dealing with Google Static Maps API
+GoogleStaticMapsKit provides a full swift API for dealing with Google Static Maps API.
 
 ## Getting Started
 
-### Exemple
+### Example
 
 ```swift
 // Setting up the API Key (probably in AppDelegate)
@@ -42,7 +42,7 @@ self.ibMapsImageView.kf.setImage(with: gsm.toResource)
 
 ## Style
 
-GoogleStaticMapKit was designed for support JSON Style like [SnazzyMaps](https://snazzymaps.com/)
+GoogleStaticMapKit was designed to support JSON Style like [SnazzyMaps](https://snazzymaps.com/)
 
 For more information about Google Maps Style you can look on the official [Google Documentation](https://developers.google.com/maps/documentation/static-maps/styling)
 
@@ -52,14 +52,14 @@ For more information about Google Maps Style you can look on the official [Googl
   * [x] Center by coordinates
   * [x] Center by adress
   * [x] Zoom Level
-* Map Parameters
+* Map parameters
   * [x] Size
   * [x] Scale
   * [x] Format (png/gif/jpg)
   * [x] Map Type (roadmap / satellite / hybrid / terrain)
   * [x] Language
   * [x] Region
-* Feature Parameters
+* Feature parameters
   * [x] Markers
   * [ ] Path
   * [ ] Visible

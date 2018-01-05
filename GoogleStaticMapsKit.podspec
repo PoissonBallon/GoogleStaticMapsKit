@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "GoogleStaticMapsKit"
-  s.version      = "0.1"
-  s.summary      = ""
+  s.version      = "1.0.0"
+  s.summary      = "GoogleStaticMapsKit provide a full swift API for dealing with Google Static Maps API"
   s.description  = <<-DESC
-    Your description here.
+    GoogleStaticMapsKit provide a full swift API for dealing with Google Static Maps API
   DESC
-  s.homepage     = "git@github.com:PoissonBallon/GoogleStaticMapsKit"
+  s.homepage     = "https://github.com/PoissonBallon/GoogleStaticMapsKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Allan Vialatte" => "allan.vialatte@icloud.com" }
   s.social_media_url   = ""
