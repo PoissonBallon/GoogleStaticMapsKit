@@ -12,7 +12,7 @@ GoogleStaticMapsKit
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/GoogleStaticMapsKit.svg?style=flat)](http://cocoapods.org/pods/GoogleStaticMapsKit)
 <!-- [![Build Status](https://travis-ci.org/PoissonBallon/GoogleStaticMapsKit.svg?branch=master)](https://travis-ci.org/PoissonBallon/GoogleStaticMapsKit) -->
-[![Swift 4](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
+[![Swift 4](https://img.shields.io/badge/Language-Swift%204-orange.svg)](https://developer.apple.com/swift/)
 <!-- [![Coverage Status](https://coveralls.io/repos/github/PoissonBallon/GoogleStaticMapsKit/badge.svg?branch=master)](https://coveralls.io/github/PoissonBallon/GoogleStaticMapsKit?branch=master) -->
 [![License](https://img.shields.io/cocoapods/l/GoogleStaticMapsKit.svg?style=flat)](http://cocoapods.org/pods/GoogleStaticMapsKit)
 
