@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleStaticMapsKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

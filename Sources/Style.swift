@@ -27,7 +27,7 @@ import Foundation
 public struct AnyDecodable: Decodable {
   var value: Any
   var valueStr: String
-
+  
   public init(from decoder: Decoder) throws {
     if let int = try? Int(from: decoder) {
       value = int
@@ -46,40 +46,39 @@ public struct AnyDecodable: Decodable {
 public struct Style: Codable {
   public let feature: String?
   public let element: String?
-  public let stylers: [[String: AnyDecodable]]
-
+  public let stylers: [[String: AnyDecodable]]?
+  
   enum CodingKeys: String, CodingKey {
     case feature = "featureType"
     case element = "elementType"
     case stylers = "stylers"
     case style = "style"
   }
-
+  
   public init(from decoder: Decoder) throws {
     let values = try decoder.container(keyedBy: CodingKeys.self)
     self.feature = try values.decodeIfPresent(String.self, forKey: .feature)
     self.element = try values.decodeIfPresent(String.self, forKey: .element)
-    self.stylers = try values.decode([[String: AnyDecodable]].self, forKey: .stylers)
+    self.stylers = try values.decodeIfPresent([[String: AnyDecodable]].self, forKey: .stylers)
   }
-
+  
   public func encode(to encoder: Encoder) throws {
     var container = encoder.container(keyedBy: CodingKeys.self)
     try container.encode(self.apiLine, forKey: .style)
   }
-
+  
   var apiLine: String {
     var apiLine = [String]()
     if let feature = feature { apiLine.append("feature:\(feature)") }
     if let element = element { apiLine.append("element:\(element)") }
-    self.stylers
-      .forEach {
-        $0.forEach {
-          let key = $0.key
-          let value = $0.value.valueStr.replacingOccurrences(of: "#", with: "0x")
-          apiLine.append("\(key):\(value)")
-        }
+    self.stylers?.forEach {
+      $0.forEach {
+        let key = $0.key
+        let value = $0.value.valueStr.replacingOccurrences(of: "#", with: "0x")
+        apiLine.append("\(key):\(value)")
+      }
     }
     return apiLine.joined(separator: "|")
   }
-
+  
 }

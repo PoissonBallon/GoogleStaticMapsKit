@@ -29,10 +29,10 @@ public struct GoogleStaticMaps {
   let parameters: Parameters
   let feature: Feature?
 
-  public init(point: Location, setting: Parameters, component: Feature? = nil) {
-    self.location = point
-    self.parameters = setting
-    self.feature = component
+  public init(location: Location, parameters: Parameters, feature: Feature? = nil) {
+    self.location = location
+    self.parameters = parameters
+    self.feature = feature
   }
 }
 

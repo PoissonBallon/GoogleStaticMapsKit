@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B29EDD2200E61DD006CB92C /* lost-in-the-desert.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B29EDD1200E61DD006CB92C /* lost-in-the-desert.json */; };
+		3B29EDD4200E61FE006CB92C /* assasins-creed.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B29EDD3200E61FE006CB92C /* assasins-creed.json */; };
+		3B29EDD6200E6230006CB92C /* white-yellow.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B29EDD5200E6230006CB92C /* white-yellow.json */; };
+		3B29EDD8200E6256006CB92C /* retro.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B29EDD7200E6256006CB92C /* retro.json */; };
 		3B40B32720093A86000233C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B32620093A86000233C6 /* AppDelegate.swift */; };
 		3B40B32920093A86000233C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B32820093A86000233C6 /* ViewController.swift */; };
 		3B40B32C20093A86000233C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B40B32A20093A86000233C6 /* Main.storyboard */; };
@@ -15,19 +19,14 @@
 		3B40B33920093AEB000233C6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B33820093AEB000233C6 /* TabBarController.swift */; };
 		3B40B33B20093D00000233C6 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B33A20093D00000233C6 /* TabBarItem.swift */; };
 		3B40B33D20093DA5000233C6 /* MapsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B33C20093DA5000233C6 /* MapsCell.swift */; };
-		3B40B34920093F22000233C6 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B33F20093F22000233C6 /* URL.swift */; };
-		3B40B34A20093F22000233C6 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34020093F22000233C6 /* Parameters.swift */; };
-		3B40B34B20093F22000233C6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34120093F22000233C6 /* Location.swift */; };
-		3B40B34C20093F22000233C6 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34220093F22000233C6 /* Marker.swift */; };
-		3B40B34D20093F22000233C6 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34320093F22000233C6 /* Query.swift */; };
-		3B40B34E20093F22000233C6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34420093F22000233C6 /* Error.swift */; };
-		3B40B34F20093F22000233C6 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34520093F22000233C6 /* Feature.swift */; };
-		3B40B35020093F22000233C6 /* StylesImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34620093F22000233C6 /* StylesImport.swift */; };
-		3B40B35120093F22000233C6 /* GoogleStaticMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34720093F22000233C6 /* GoogleStaticMaps.swift */; };
-		3B40B35220093F22000233C6 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40B34820093F22000233C6 /* Style.swift */; };
+		5C2586048EFF54C4283C097F /* Pods_GSMExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43B24829819758A87A14648 /* Pods_GSMExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B29EDD1200E61DD006CB92C /* lost-in-the-desert.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lost-in-the-desert.json"; sourceTree = "<group>"; };
+		3B29EDD3200E61FE006CB92C /* assasins-creed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "assasins-creed.json"; sourceTree = "<group>"; };
+		3B29EDD5200E6230006CB92C /* white-yellow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "white-yellow.json"; sourceTree = "<group>"; };
+		3B29EDD7200E6256006CB92C /* retro.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = retro.json; sourceTree = "<group>"; };
 		3B40B32320093A86000233C6 /* GSMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B40B32620093A86000233C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B40B32820093A86000233C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,16 +37,9 @@
 		3B40B33820093AEB000233C6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		3B40B33A20093D00000233C6 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		3B40B33C20093DA5000233C6 /* MapsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsCell.swift; sourceTree = "<group>"; };
-		3B40B33F20093F22000233C6 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
-		3B40B34020093F22000233C6 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
-		3B40B34120093F22000233C6 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		3B40B34220093F22000233C6 /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
-		3B40B34320093F22000233C6 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
-		3B40B34420093F22000233C6 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		3B40B34520093F22000233C6 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
-		3B40B34620093F22000233C6 /* StylesImport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylesImport.swift; sourceTree = "<group>"; };
-		3B40B34720093F22000233C6 /* GoogleStaticMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleStaticMaps.swift; sourceTree = "<group>"; };
-		3B40B34820093F22000233C6 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		5D133C1CDCECBF82C5064F46 /* Pods-GSMExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSMExample/Pods-GSMExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7C4B2D7AADE2234541219BD5 /* Pods-GSMExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSMExample/Pods-GSMExample.release.xcconfig"; sourceTree = "<group>"; };
+		E43B24829819758A87A14648 /* Pods_GSMExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSMExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,18 +47,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2586048EFF54C4283C097F /* Pods_GSMExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D687FFD35013FC9517757E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D133C1CDCECBF82C5064F46 /* Pods-GSMExample.debug.xcconfig */,
+				7C4B2D7AADE2234541219BD5 /* Pods-GSMExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B29EDD0200E6179006CB92C /* MapsStyle */ = {
+			isa = PBXGroup;
+			children = (
+				3B29EDD1200E61DD006CB92C /* lost-in-the-desert.json */,
+				3B29EDD3200E61FE006CB92C /* assasins-creed.json */,
+				3B29EDD5200E6230006CB92C /* white-yellow.json */,
+				3B29EDD7200E6256006CB92C /* retro.json */,
+			);
+			path = MapsStyle;
+			sourceTree = "<group>";
+		};
 		3B40B31A20093A86000233C6 = {
 			isa = PBXGroup;
 			children = (
 				3B40B32520093A86000233C6 /* GSMExample */,
-				3B40B33E20093EF3000233C6 /* GoogleStaticMapKit */,
 				3B40B32420093A86000233C6 /* Products */,
+				05D687FFD35013FC9517757E /* Pods */,
+				465976F4502EBCE530D51929 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +95,7 @@
 		3B40B32520093A86000233C6 /* GSMExample */ = {
 			isa = PBXGroup;
 			children = (
+				3B29EDD0200E6179006CB92C /* MapsStyle */,
 				3B40B32620093A86000233C6 /* AppDelegate.swift */,
 				3B40B32820093A86000233C6 /* ViewController.swift */,
 				3B40B33820093AEB000233C6 /* TabBarController.swift */,
@@ -94,22 +109,12 @@
 			path = GSMExample;
 			sourceTree = "<group>";
 		};
-		3B40B33E20093EF3000233C6 /* GoogleStaticMapKit */ = {
+		465976F4502EBCE530D51929 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B40B34420093F22000233C6 /* Error.swift */,
-				3B40B34520093F22000233C6 /* Feature.swift */,
-				3B40B34720093F22000233C6 /* GoogleStaticMaps.swift */,
-				3B40B34120093F22000233C6 /* Location.swift */,
-				3B40B34220093F22000233C6 /* Marker.swift */,
-				3B40B34020093F22000233C6 /* Parameters.swift */,
-				3B40B34320093F22000233C6 /* Query.swift */,
-				3B40B34820093F22000233C6 /* Style.swift */,
-				3B40B34620093F22000233C6 /* StylesImport.swift */,
-				3B40B33F20093F22000233C6 /* URL.swift */,
+				E43B24829819758A87A14648 /* Pods_GSMExample.framework */,
 			);
-			name = GoogleStaticMapKit;
-			path = ../Sources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B40B33520093A86000233C6 /* Build configuration list for PBXNativeTarget "GSMExample" */;
 			buildPhases = (
+				3C6E186875B5A17DDCCDFC94 /* [CP] Check Pods Manifest.lock */,
 				3B40B31F20093A86000233C6 /* Sources */,
 				3B40B32020093A86000233C6 /* Frameworks */,
 				3B40B32120093A86000233C6 /* Resources */,
+				4661AD75122EA57CB17D99CA /* [CP] Embed Pods Frameworks */,
+				23F7D2557166E39F221340F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,34 +179,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B29EDD4200E61FE006CB92C /* assasins-creed.json in Resources */,
 				3B40B33120093A86000233C6 /* LaunchScreen.storyboard in Resources */,
 				3B40B32E20093A86000233C6 /* Assets.xcassets in Resources */,
+				3B29EDD6200E6230006CB92C /* white-yellow.json in Resources */,
 				3B40B32C20093A86000233C6 /* Main.storyboard in Resources */,
+				3B29EDD8200E6256006CB92C /* retro.json in Resources */,
+				3B29EDD2200E61DD006CB92C /* lost-in-the-desert.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F7D2557166E39F221340F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSMExample/Pods-GSMExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6E186875B5A17DDCCDFC94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSMExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4661AD75122EA57CB17D99CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GSMExample/Pods-GSMExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleStaticMapsKit/GoogleStaticMapsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleStaticMapsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSMExample/Pods-GSMExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B40B31F20093A86000233C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B40B34F20093F22000233C6 /* Feature.swift in Sources */,
-				3B40B34D20093F22000233C6 /* Query.swift in Sources */,
 				3B40B33920093AEB000233C6 /* TabBarController.swift in Sources */,
-				3B40B34A20093F22000233C6 /* Parameters.swift in Sources */,
-				3B40B35220093F22000233C6 /* Style.swift in Sources */,
-				3B40B34E20093F22000233C6 /* Error.swift in Sources */,
-				3B40B34B20093F22000233C6 /* Location.swift in Sources */,
 				3B40B32920093A86000233C6 /* ViewController.swift in Sources */,
 				3B40B33D20093DA5000233C6 /* MapsCell.swift in Sources */,
 				3B40B33B20093D00000233C6 /* TabBarItem.swift in Sources */,
-				3B40B35120093F22000233C6 /* GoogleStaticMaps.swift in Sources */,
 				3B40B32720093A86000233C6 /* AppDelegate.swift in Sources */,
-				3B40B34920093F22000233C6 /* URL.swift in Sources */,
-				3B40B34C20093F22000233C6 /* Marker.swift in Sources */,
-				3B40B35020093F22000233C6 /* StylesImport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +391,7 @@
 		};
 		3B40B33620093A86000233C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D133C1CDCECBF82C5064F46 /* Pods-GSMExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -348,6 +407,7 @@
 		};
 		3B40B33720093A86000233C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4B2D7AADE2234541219BD5 /* Pods-GSMExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

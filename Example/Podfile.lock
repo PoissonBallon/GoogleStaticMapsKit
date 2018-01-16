@@ -1,0 +1,19 @@
+PODS:
+  - GoogleStaticMapsKit (1.0.0)
+  - Kingfisher (4.6.1)
+
+DEPENDENCIES:
+  - GoogleStaticMapsKit (from `..`)
+  - Kingfisher (~> 4.0)
+
+EXTERNAL SOURCES:
+  GoogleStaticMapsKit:
+    :path: ..
+
+SPEC CHECKSUMS:
+  GoogleStaticMapsKit: c04465115ce10295a18b2230a7d3014401ae9622
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+
+PODFILE CHECKSUM: 8c5bd4da55b0c5533a6e850babdb01f8ecdac1ec
+
+COCOAPODS: 1.3.1
