@@ -18,6 +18,82 @@ GoogleStaticMapsKit
 
 GoogleStaticMapsKit provides a full swift API for dealing with Google Static Maps API.
 
+## Preview
+### Zoom
+
+<table border="1" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="Assets/example/zoom-world.png" alt="zoom-world" width="200"/>
+<br />
+Zoom : .world
+</td>
+
+<td align="center" valign="center">
+<img src="Assets/example/zoom-continant.png" alt="zoom-continant" width="200"/>
+<br />
+Zoom : .continant
+</td>
+
+<td align="center" valign="center">
+<img src="Assets/example/zoom-city.png" alt="zoom-city" width="200"/>
+<br />
+Zoom : .city
+</td>
+
+<td align="center" valign="center">
+<img src="Assets/example/zoom-street.png" alt="zoom-street" width="200"/>
+<br />
+Zoom : .street
+</td>
+
+<td align="center" valign="center">
+<img src="Assets/example/zoom-building.png" alt="zoom-building" width="200"/>
+<br />
+Zoom : .building
+</td>
+
+</tr>
+
+</table>
+
+
+### Style
+
+<table border="1" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="Assets/example/style-retro.png" alt="style-retro" width="200"/>
+<br />
+  <a href="https://snazzymaps.com/style/18/retro">Style : [Retro]</a>
+</td>
+
+<td align="center" valign="center">
+<img src="Assets/example/style-assasins-creed.png" alt="style-assasins" width="200"/>
+<br />
+  <a href="https://snazzymaps.com/style/72543/assassins-creed-iv">Style : [Assassin's Creed IV]</a>
+</td>
+
+<td align="center" valign="center">
+<img src="Assets/example/style-lost-in-the-desert.png" alt="style-lost-in-the-desert" width="200"/>
+<br />
+  <a href="https://snazzymaps.com/style/93/lost-in-the-desert">Style : [Lost in the desert]</a>
+</td>
+
+<td align="center" valign="center">
+<img src="Assets/example/style-wy.png" alt="style-wy" width="200"/>
+<br />
+  <a href="https://snazzymaps.com/style/8097/wy">Style : [WY]</a>
+</td>
+
+</tr>
+
+</table>
+
 ## Getting Started
 
 ### Example
@@ -26,14 +102,11 @@ GoogleStaticMapsKit provides a full swift API for dealing with Google Static Map
 // Setting up the API Key (probably in AppDelegate)
 GoogleStaticMaps.setAPIKey(apiKey: "your_api_key")
 
-let locationCenter = LocationCenter.geo(latitude: 45.7772, longitude: 3.0870)
-let imageSize = ImageSize(width: 200, height: 200)
 
-let point = Location(center: locationCenter, zoom: .city)
-let setting = Parameters(size: imageSize)
+let parameters = Parameters(size: ImageSize(width: 600, height: 400))
+let location = Location(center: .geo(latitude: 45.7772, longitude: 3.0870), zoom: .city)
+let gsm = GoogleStaticMaps(location: location, parameters: parameters)
 
-// Use GoogleStaticMaps Object
-let gsm = GoogleStaticMaps(point: point, setting: setting)
 let url = gsm.toURL
 
 print("Result : \(url)")
@@ -47,9 +120,9 @@ GoogleStaticMapKit was designed to support JSON Style like [SnazzyMaps](https://
 [...]
 let path = jsonFilePath
 let styles = StylesImporter.fromJson(path: path).styles
+let feature = Feature(styles: styles)
+let gsm = GoogleStaticMaps(location: location, parameters: parameters, feature: feature)
 
-let component = Feature(styles: styles)
-let gsm = GoogleStaticMaps(point: point, setting: setting, component: component)
 ```
 
 For more information about Google Maps Style you can look on the official [Google Documentation](https://developers.google.com/maps/documentation/static-maps/styling)
