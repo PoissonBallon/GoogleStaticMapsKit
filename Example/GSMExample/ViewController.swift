@@ -64,7 +64,7 @@ extension ViewController: UITableViewDataSource {
 extension ViewController {
   
   var zoomData: [DataItem] {
-    let zooms:[ZoomLevel] = [.world, .continant, .city, .street, .building]
+    let zooms:[ZoomLevel] = [.world, .continent, .city, .street, .building]
     
     return zooms.flatMap {
       let parameters = Parameters(size: ImageSize(width: 600, height: 400))

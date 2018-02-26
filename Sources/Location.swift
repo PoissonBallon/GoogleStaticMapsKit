@@ -37,7 +37,7 @@ public enum LocationCenter {
 
 public enum ZoomLevel {
   case world
-  case continant
+  case continent
   case city
   case street
   case building
@@ -46,7 +46,7 @@ public enum ZoomLevel {
   var value: Int {
     switch self {
     case .world:              return 1
-    case .continant:          return 5
+    case .continent:          return 5
     case .city:               return 10
     case .street:             return 15
     case .building:           return 20

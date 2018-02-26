@@ -37,7 +37,7 @@ Zoom : .world
 <td align="center" valign="center">
 <img src="Assets/example/zoom-continant.png" alt="zoom-continant" width="200"/>
 <br />
-Zoom : .continant
+Zoom : .continent
 </td>
 
 <td align="center" valign="center">
