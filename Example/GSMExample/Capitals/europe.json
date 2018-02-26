@@ -1,0 +1,730 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        19.82,
+        41.33
+      ]
+    },
+    "properties": {
+      "capital": "Tirana",
+      "country": "Albania"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1.52,
+        42.51
+      ]
+    },
+    "properties": {
+      "capital": "Andorra la Vella",
+      "country": "Andorra"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        16.37,
+        48.21
+      ]
+    },
+    "properties": {
+      "capital": "Vienna",
+      "country": "Austria"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        27.57,
+        53.9
+      ]
+    },
+    "properties": {
+      "capital": "Minsk",
+      "country": "Belarus"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.35,
+        50.85
+      ]
+    },
+    "properties": {
+      "capital": "Brussels",
+      "country": "Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        18.36,
+        43.85
+      ]
+    },
+    "properties": {
+      "capital": "Sarajevo",
+      "country": "Bosnia and Herzegovina"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.32,
+        42.7
+      ]
+    },
+    "properties": {
+      "capital": "Sofia",
+      "country": "Bulgaria"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.98,
+        45.81
+      ]
+    },
+    "properties": {
+      "capital": "Zagreb",
+      "country": "Croatia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        33.37,
+        35.17
+      ]
+    },
+    "properties": {
+      "capital": "Nicosia",
+      "country": "Cyprus"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        14.42,
+        50.09
+      ]
+    },
+    "properties": {
+      "capital": "Prague",
+      "country": "Czech Republic"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.57,
+        55.68
+      ]
+    },
+    "properties": {
+      "capital": "Copenhagen",
+      "country": "Denmark"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.75,
+        59.44
+      ]
+    },
+    "properties": {
+      "capital": "Tallinn",
+      "country": "Estonia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.77,
+        62.01
+      ]
+    },
+    "properties": {
+      "capital": "Tórshavn",
+      "country": "Faroe Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.94,
+        60.17
+      ]
+    },
+    "properties": {
+      "capital": "Helsinki",
+      "country": "Finland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.35,
+        48.85
+      ]
+    },
+    "properties": {
+      "capital": "Paris",
+      "country": "France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.41,
+        52.52
+      ]
+    },
+    "properties": {
+      "capital": "Berlin",
+      "country": "Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -5.35,
+        36.14
+      ]
+    },
+    "properties": {
+      "capital": "Gibraltar",
+      "country": "Gibraltar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.72,
+        37.98
+      ]
+    },
+    "properties": {
+      "capital": "Athens",
+      "country": "Greece"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -2.54,
+        49.46
+      ]
+    },
+    "properties": {
+      "capital": "St Peter Port",
+      "country": "Guernsey"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        19.04,
+        47.5
+      ]
+    },
+    "properties": {
+      "capital": "Budapest",
+      "country": "Hungary"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -21.9,
+        64.14
+      ]
+    },
+    "properties": {
+      "capital": "Reykjavík",
+      "country": "Iceland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.25,
+        53.33
+      ]
+    },
+    "properties": {
+      "capital": "Dublin",
+      "country": "Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -4.48,
+        54.15
+      ]
+    },
+    "properties": {
+      "capital": "Douglas",
+      "country": "Isle of Man"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.48,
+        41.89
+      ]
+    },
+    "properties": {
+      "capital": "Rome",
+      "country": "Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -2.1,
+        49.19
+      ]
+    },
+    "properties": {
+      "capital": "Saint Helier",
+      "country": "Jersey"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.17,
+        42.67
+      ]
+    },
+    "properties": {
+      "capital": "Pristina",
+      "country": "Kosovo"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        24.11,
+        56.95
+      ]
+    },
+    "properties": {
+      "capital": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9.52,
+        47.14
+      ]
+    },
+    "properties": {
+      "capital": "Vaduz",
+      "country": "Liechtenstein"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        25.28,
+        54.69
+      ]
+    },
+    "properties": {
+      "capital": "Vilnius",
+      "country": "Lithuania"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.13,
+        49.61
+      ]
+    },
+    "properties": {
+      "capital": "Luxembourg",
+      "country": "Luxembourg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.43,
+        42
+      ]
+    },
+    "properties": {
+      "capital": "Skopje",
+      "country": "Macedonia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        14.51,
+        35.9
+      ]
+    },
+    "properties": {
+      "capital": "Valletta",
+      "country": "Malta"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.86,
+        47.01
+      ]
+    },
+    "properties": {
+      "capital": "Chişinău",
+      "country": "Moldova"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        7.42,
+        43.73
+      ]
+    },
+    "properties": {
+      "capital": "Monaco",
+      "country": "Monaco"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        19.26,
+        42.44
+      ]
+    },
+    "properties": {
+      "capital": "Podgorica",
+      "country": "Montenegro"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.89,
+        52.37
+      ]
+    },
+    "properties": {
+      "capital": "Amsterdam",
+      "country": "Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        10.75,
+        59.91
+      ]
+    },
+    "properties": {
+      "capital": "Oslo",
+      "country": "Norway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.01,
+        52.23
+      ]
+    },
+    "properties": {
+      "capital": "Warsaw",
+      "country": "Poland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.13,
+        38.72
+      ]
+    },
+    "properties": {
+      "capital": "Lisbon",
+      "country": "Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        26.11,
+        44.43
+      ]
+    },
+    "properties": {
+      "capital": "Bucharest",
+      "country": "Romania"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        37.62,
+        55.75
+      ]
+    },
+    "properties": {
+      "capital": "Moscow",
+      "country": "Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.45,
+        43.94
+      ]
+    },
+    "properties": {
+      "capital": "San Marino",
+      "country": "San Marino"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        20.47,
+        44.8
+      ]
+    },
+    "properties": {
+      "capital": "Belgrade",
+      "country": "Serbia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        17.11,
+        48.15
+      ]
+    },
+    "properties": {
+      "capital": "Bratislava",
+      "country": "Slovakia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        14.51,
+        46.05
+      ]
+    },
+    "properties": {
+      "capital": "Ljubljana",
+      "country": "Slovenia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -3.7,
+        40.42
+      ]
+    },
+    "properties": {
+      "capital": "Madrid",
+      "country": "Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.64,
+        78.22
+      ]
+    },
+    "properties": {
+      "capital": "Longyearbyen",
+      "country": "Svalbard and Jan Mayen"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        18.06,
+        59.33
+      ]
+    },
+    "properties": {
+      "capital": "Stockholm",
+      "country": "Sweden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        7.45,
+        46.95
+      ]
+    },
+    "properties": {
+      "capital": "Berne",
+      "country": "Switzerland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        30.52,
+        50.45
+      ]
+    },
+    "properties": {
+      "capital": "Kiev",
+      "country": "Ukraine"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.13,
+        51.51
+      ]
+    },
+    "properties": {
+      "capital": "London",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.45,
+        41.9
+      ]
+    },
+    "properties": {
+      "capital": "Vatican",
+      "country": "Vatican"
+    }
+  }
+]

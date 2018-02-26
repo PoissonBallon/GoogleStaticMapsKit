@@ -13,7 +13,7 @@ import UIKit
 enum TabBarItem: String {
   case zoom = "Zoom"
   case style = "Style"
-  case marker = "Marker"
+  case capitals = "Capitals"
   
   var viewController: UIViewController {
     let story = UIStoryboard(name: "Main", bundle: nil)

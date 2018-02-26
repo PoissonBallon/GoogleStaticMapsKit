@@ -20,9 +20,9 @@ class ViewController: UIViewController {
   
   lazy var data: [DataItem] = {
     switch self.item {
-    case .zoom:   return self.zoomData
-    case .style:  return self.styleData
-    case .marker: return self.markerData
+    case .zoom:       return self.zoomData
+    case .style:      return self.styleData
+    case .capitals:   return self.capitalsData
     default:      return [DataItem]()
     }
   }()
@@ -90,8 +90,16 @@ extension ViewController {
     }
   }
   
-  var markerData: [DataItem] {
-    return [DataItem]()
+  var capitalsData: [DataItem] {
+    
+    let parameters = Parameters(size: ImageSize(width: 600, height: 400))
+    let capitals = Capital.loadAllCapital()
+    let items: [DataItem] = capitals.flatMap {
+      let location = Location(center: .geo(latitude: $0.latitude, longitude: $0.longitude), zoom: .city)
+      let gsm = GoogleStaticMaps(location: location, parameters: parameters)
+      return DataItem(gsm, $0.properties.capital)
+    }
+    return items
   }
 }
 

@@ -1,0 +1,366 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -170.7,
+        -14.28
+      ]
+    },
+    "properties": {
+      "capital": "Pago Pago",
+      "country": "American Samoa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        149.13,
+        -35.28
+      ]
+    },
+    "properties": {
+      "capital": "Canberra",
+      "country": "Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -159.78,
+        -21.21
+      ]
+    },
+    "properties": {
+      "capital": "Avarua",
+      "country": "Cook Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        125.57,
+        -8.56
+      ]
+    },
+    "properties": {
+      "capital": "Dili",
+      "country": "East Timor"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        178.44,
+        -18.14
+      ]
+    },
+    "properties": {
+      "capital": "Suva",
+      "country": "Fiji"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -149.57,
+        -17.53
+      ]
+    },
+    "properties": {
+      "capital": "Papeete",
+      "country": "French Polynesia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        144.75,
+        13.48
+      ]
+    },
+    "properties": {
+      "capital": "Hagåtña",
+      "country": "Guam"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        172.98,
+        1.33
+      ]
+    },
+    "properties": {
+      "capital": "South Tarawa",
+      "country": "Kiribati"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        171.38,
+        7.09
+      ]
+    },
+    "properties": {
+      "capital": "Majuro",
+      "country": "Marshall Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        158.16,
+        6.92
+      ]
+    },
+    "properties": {
+      "capital": "Palikir",
+      "country": "Micronesia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.54,
+        166.93
+      ]
+    },
+    "properties": {
+      "capital": "Yaren",
+      "country": "Nauru"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        166.46,
+        -22.28
+      ]
+    },
+    "properties": {
+      "capital": "Noumea",
+      "country": "New Caledonia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        174.78,
+        -41.29
+      ]
+    },
+    "properties": {
+      "capital": "Wellington",
+      "country": "New Zealand"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -169.92,
+        -19.06
+      ]
+    },
+    "properties": {
+      "capital": "Alofi",
+      "country": "Niue"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        167.97,
+        -29.05
+      ]
+    },
+    "properties": {
+      "capital": "Kingston",
+      "country": "Norfolk Island"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        145.75,
+        15.21
+      ]
+    },
+    "properties": {
+      "capital": "Saipan",
+      "country": "Northern Mariana Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        134.62,
+        7.5
+      ]
+    },
+    "properties": {
+      "capital": "Melekeok",
+      "country": "Palau"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        147.18,
+        -9.44
+      ]
+    },
+    "properties": {
+      "capital": "Port Moresby",
+      "country": "Papua New Guinea"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -130.1,
+        -25.07
+      ]
+    },
+    "properties": {
+      "capital": "Adamstown",
+      "country": "Pitcairn"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -171.77,
+        -13.83
+      ]
+    },
+    "properties": {
+      "capital": "Apia",
+      "country": "Samoa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        159.95,
+        -9.43
+      ]
+    },
+    "properties": {
+      "capital": "Honiara",
+      "country": "Solomon Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.2,
+        -171.85
+      ]
+    },
+    "properties": {
+      "capital": "Nukunonu",
+      "country": "Tokelau"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -175.2,
+        -21.13
+      ]
+    },
+    "properties": {
+      "capital": "Nuku'alofa",
+      "country": "Tonga"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        179.19,
+        -8.52
+      ]
+    },
+    "properties": {
+      "capital": "Funafuti",
+      "country": "Tuvalu"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        168.32,
+        -17.73
+      ]
+    },
+    "properties": {
+      "capital": "Port Vila",
+      "country": "Vanuatu"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -176.17,
+        -13.28
+      ]
+    },
+    "properties": {
+      "capital": "Mata-Utu",
+      "country": "Wallis and Futuna"
+    }
+  }
+]

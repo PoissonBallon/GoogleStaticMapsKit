@@ -16,9 +16,12 @@ GoogleStaticMapsKit
 <!-- [![Coverage Status](https://coveralls.io/repos/github/PoissonBallon/GoogleStaticMapsKit/badge.svg?branch=master)](https://coveralls.io/github/PoissonBallon/GoogleStaticMapsKit?branch=master) -->
 [![License](https://img.shields.io/cocoapods/l/GoogleStaticMapsKit.svg?style=flat)](http://cocoapods.org/pods/GoogleStaticMapsKit)
 
-GoogleStaticMapsKit provides a full swift API for dealing with Google Static Maps API.
+GoogleStaticMapsKit provides a full, lightweight swift API for dealing with Google Static Maps API.
 
 ## Preview
+
+<img src="Assets/record.gif" alt="record" width="300"/>
+
 ### Zoom
 
 <table border="1" cellpadding="5">

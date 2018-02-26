@@ -1,0 +1,198 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -58.38,
+        -34.61
+      ]
+    },
+    "properties": {
+      "capital": "Buenos Aires",
+      "country": "Argentina"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -65.26,
+        -19.03
+      ]
+    },
+    "properties": {
+      "capital": "Sucre",
+      "country": "Bolivia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -47.93,
+        -15.78
+      ]
+    },
+    "properties": {
+      "capital": "Brasília",
+      "country": "Brazil"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -70.65,
+        -33.46
+      ]
+    },
+    "properties": {
+      "capital": "Santiago",
+      "country": "Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.08,
+        4.61
+      ]
+    },
+    "properties": {
+      "capital": "Bogotá",
+      "country": "Colombia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -78.52,
+        -0.23
+      ]
+    },
+    "properties": {
+      "capital": "Quito",
+      "country": "Ecuador"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -57.85,
+        -51.7
+      ]
+    },
+    "properties": {
+      "capital": "Stanley",
+      "country": "Falkland Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -52.33,
+        4.93
+      ]
+    },
+    "properties": {
+      "capital": "Cayenne",
+      "country": "French Guiana"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -58.16,
+        6.8
+      ]
+    },
+    "properties": {
+      "capital": "Georgetown",
+      "country": "Guyana"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -57.64,
+        -25.3
+      ]
+    },
+    "properties": {
+      "capital": "Asunción",
+      "country": "Paraguay"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.03,
+        -12.04
+      ]
+    },
+    "properties": {
+      "capital": "Lima",
+      "country": "Peru"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -55.17,
+        5.87
+      ]
+    },
+    "properties": {
+      "capital": "Paramaribo",
+      "country": "Suriname"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -56.17,
+        -34.83
+      ]
+    },
+    "properties": {
+      "capital": "Montevideo",
+      "country": "Uruguay"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -66.88,
+        10.49
+      ]
+    },
+    "properties": {
+      "capital": "Caracas",
+      "country": "Venezuela"
+    }
+  }
+]

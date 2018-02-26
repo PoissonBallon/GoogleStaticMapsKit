@@ -10,7 +10,7 @@ import UIKit
 
 class TabBarController: UITabBarController {
   
-  let tabs = [TabBarItem.zoom, TabBarItem.style, TabBarItem.marker]
+  let tabs = [TabBarItem.zoom, TabBarItem.style, TabBarItem.capitals]
   
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)

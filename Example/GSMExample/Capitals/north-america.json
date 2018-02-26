@@ -1,0 +1,548 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -63.06,
+        18.22
+      ]
+    },
+    "properties": {
+      "capital": "The Valley",
+      "country": "Anguilla"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.85,
+        17.12
+      ]
+    },
+    "properties": {
+      "capital": "St. John's",
+      "country": "Antigua and Barbuda"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -70.03,
+        12.52
+      ]
+    },
+    "properties": {
+      "capital": "Oranjestad",
+      "country": "Aruba"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.34,
+        25.06
+      ]
+    },
+    "properties": {
+      "capital": "Nassau",
+      "country": "Bahamas"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.62,
+        13.1
+      ]
+    },
+    "properties": {
+      "capital": "Bridgetown",
+      "country": "Barbados"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -88.77,
+        17.25
+      ]
+    },
+    "properties": {
+      "capital": "Belmopan",
+      "country": "Belize"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -64.78,
+        32.29
+      ]
+    },
+    "properties": {
+      "capital": "Hamilton",
+      "country": "Bermuda"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -64.62,
+        18.42
+      ]
+    },
+    "properties": {
+      "capital": "Road Town",
+      "country": "British Virgin Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -75.7,
+        45.41
+      ]
+    },
+    "properties": {
+      "capital": "Ottawa",
+      "country": "Canada"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -81.37,
+        19.29
+      ]
+    },
+    "properties": {
+      "capital": "George Town",
+      "country": "Cayman Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -84.08,
+        9.93
+      ]
+    },
+    "properties": {
+      "capital": "San José",
+      "country": "Costa Rica"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -82.38,
+        23.13
+      ]
+    },
+    "properties": {
+      "capital": "Havana",
+      "country": "Cuba"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.39,
+        15.3
+      ]
+    },
+    "properties": {
+      "capital": "Roseau",
+      "country": "Dominica"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -69.99,
+        18.5
+      ]
+    },
+    "properties": {
+      "capital": "Santo Domingo",
+      "country": "Dominican Republic"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -89.19,
+        13.69
+      ]
+    },
+    "properties": {
+      "capital": "San Salvador",
+      "country": "El Salvador"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -51.72,
+        64.18
+      ]
+    },
+    "properties": {
+      "capital": "Nuuk (Godthåb)",
+      "country": "Greenland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.75,
+        12.06
+      ]
+    },
+    "properties": {
+      "capital": "St. George's",
+      "country": "Grenada"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.73,
+        16
+      ]
+    },
+    "properties": {
+      "capital": "Basse-Terre",
+      "country": "Guadeloupe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -90.51,
+        14.64
+      ]
+    },
+    "properties": {
+      "capital": "New Guatemala",
+      "country": "Guatemala"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.34,
+        18.54
+      ]
+    },
+    "properties": {
+      "capital": "Port-au-Prince",
+      "country": "Haiti"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -87.21,
+        14.08
+      ]
+    },
+    "properties": {
+      "capital": "Tegucigalpa",
+      "country": "Honduras"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -76.79,
+        18
+      ]
+    },
+    "properties": {
+      "capital": "Kingston",
+      "country": "Jamaica"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.07,
+        14.61
+      ]
+    },
+    "properties": {
+      "capital": "Fort-de-France",
+      "country": "Martinique"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -99.13,
+        19.43
+      ]
+    },
+    "properties": {
+      "capital": "Mexico City",
+      "country": "Mexico"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -62.21,
+        16.71
+      ]
+    },
+    "properties": {
+      "capital": "Plymouth",
+      "country": "Montserrat"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.1,
+        -68.92
+      ]
+    },
+    "properties": {
+      "capital": "Willemstad",
+      "country": "Netherlands Antilles"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -86.25,
+        12.13
+      ]
+    },
+    "properties": {
+      "capital": "Managua",
+      "country": "Nicaragua"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -79.52,
+        8.99
+      ]
+    },
+    "properties": {
+      "capital": "Panama City",
+      "country": "Panama"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -66.11,
+        18.47
+      ]
+    },
+    "properties": {
+      "capital": "San Juan",
+      "country": "Puerto Rico"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -62.85,
+        17.9
+      ]
+    },
+    "properties": {
+      "capital": "Gustavia",
+      "country": "Saint Barthélemy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -62.73,
+        17.29
+      ]
+    },
+    "properties": {
+      "capital": "Basseterre",
+      "country": "Saint Kitts and Nevis"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.01,
+        14
+      ]
+    },
+    "properties": {
+      "capital": "Castries",
+      "country": "Saint Lucia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -63.08,
+        18.07
+      ]
+    },
+    "properties": {
+      "capital": "Marigot",
+      "country": "Saint Martin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -56.17,
+        46.78
+      ]
+    },
+    "properties": {
+      "capital": "Saint-Pierre",
+      "country": "Saint Pierre and Miquelon"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.22,
+        13.16
+      ]
+    },
+    "properties": {
+      "capital": "Kingstown",
+      "country": "Saint Vincent and the Grenadines"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -61.52,
+        10.67
+      ]
+    },
+    "properties": {
+      "capital": "Port of Spain",
+      "country": "Trinidad and Tobago"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -71.14,
+        21.46
+      ]
+    },
+    "properties": {
+      "capital": "Cockburn Town",
+      "country": "Turks and Caicos Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -64.93,
+        18.34
+      ]
+    },
+    "properties": {
+      "capital": "Charlotte Amalie",
+      "country": "U.S. Virgin Islands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.04,
+        38.9
+      ]
+    },
+    "properties": {
+      "capital": "Washington",
+      "country": "United States"
+    }
+  }
+]
