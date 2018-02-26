@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     self.window = UIWindow(frame: UIScreen.main.bounds)
     self.window?.rootViewController = TabBarController()
     self.window?.makeKeyAndVisible()
-    GoogleStaticMaps.setAPIKey(apiKey: "AIzaSyCOUslQxOTU_gKxuGdV1dNe7c25xqH3IlM")
+    GoogleStaticMaps.setAPIKey(apiKey: "XxxxxxXXXXxxxxxxx")
     return true
   }
 }
